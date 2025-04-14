@@ -1,0 +1,292 @@
+.JK_home{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+    background-color: rgb(255, 255, 255);
+}
+
+.home_nav{
+    grid-column: 1/-1;
+    grid-row: 1;
+    background-color: #1e4a9c;
+}
+
+.home_nav ul{
+    list-style-type: none;
+    text-align: right;
+}
+
+.home_nav li{
+    display: inline-block;
+    text-decoration: none;
+    padding-right: 30px;
+    color: rgb(255, 255, 255);
+}
+
+li a:hover{
+    background-color: #c2c1c1;
+}
+
+.home_header{
+    grid-column: 1/-1;
+    grid-row: 2/4;
+    text-align: center;
+}
+
+.home_header #title{
+    text-shadow: 1px 10px 20px rgb(128, 128, 128);
+}
+
+.home_header #fam_house{
+    margin: 2%;
+    height: 18em;
+    width: 26em;
+    border-radius: 5px;
+}
+
+.home_header #nice_house{
+    margin: 2%;
+    height: 18em;
+    width: 26em;
+    border-radius: 5px;
+}
+
+.home_body{
+    grid-column: 1/-1;
+    grid-row: 4/6;
+    margin: 2%;
+    padding: 10px;
+    text-align: center;
+    border: solid 8px #1e4a9c;
+    border-radius: 5px;
+}
+
+.home_body #home_p{
+    font-size: 20px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.home_body #man_buttons{
+    display: flex;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.home_body #man_john{
+    margin-top: 35px;
+    margin-left: 2%;
+    margin-bottom: 35px;
+    height: 220px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.home_body #services {
+    display: flex;
+    margin-top: 1%;
+    margin-left: 2%;
+}
+
+.home_body #home_services {
+    margin-right: 2%;
+    margin-left: 8%;
+    list-style-type: none;
+}
+
+.home_body #home_services button{
+    margin: 1%;
+    height: 50px;
+    width: 180px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    color:rgb(0, 0, 0);
+    background-color: rgb(149, 175, 196);
+    cursor: pointer;
+}
+
+.home_article{
+    grid-column: 1/-1;
+    grid-row: 6/8;
+    background-color: #8f8f8f;
+}
+
+.home_article h2{
+    margin-left: 1%;
+}
+.home_article .reviews{
+    display: flex;
+    margin-left: 10%;
+    margin-bottom: 2%;
+    padding: 0;
+    height: 200px;
+    width: 700px;
+    overflow-x: hidden;
+}
+
+.home_article #reviews img{
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+@keyframes fadeSlide {
+    0%, 25% {
+        opacity: 1; /* First image visible */
+    }
+    26%, 50% {
+        opacity: 0; /* First image fades out */
+    }
+    51%, 75% {
+        opacity: 1; /* Second image visible */
+    }
+    76%, 100% {
+        opacity: 0; /* Second image fades out */
+    }
+}
+
+@keyframes fadeSlide2 {
+    0%, 25% {
+        opacity: 0; /* Second image invisible */
+    }
+    26%, 50% {
+        opacity: 1; /* Second image fades in */
+    }
+    51%, 75% {
+        opacity: 0; /* Third image invisible */
+    }
+    76%, 100% {
+        opacity: 1; /* Third image fades in */
+    }
+}
+
+@keyframes fadeSlide3 {
+    0%, 25% {
+        opacity: 0; /* Third image invisible */
+    }
+    26%, 50% {
+        opacity: 0; /* Third image invisible */
+    }
+    51%, 75% {
+        opacity: 1; /* Fourth image fades in */
+    }
+    76%, 100% {
+        opacity: 0; /* Fourth image fades out */
+    }
+}
+
+@keyframes fadeSlide4 {
+    0%, 25% {
+        opacity: 0; /* Fourth image invisible */
+    }
+    26%, 50% {
+        opacity: 0; /* Fourth image invisible */
+    }
+    51%, 75% {
+        opacity: 0; /* Fourth image invisible */
+    }
+    76%, 100% {
+        opacity: 1; /* Fourth image fades in */
+    }
+}
+
+/* Apply the animations to each image */
+#review1 {
+    position: absolute;
+    height: 200px;
+    width: 700px;
+    animation: fadeSlide 30s infinite;
+}
+
+#review2 {
+    position: absolute;
+    height: 200px;
+    width: 700px;
+    animation: fadeSlide2 30s infinite;
+}
+
+#review3 {
+    position: absolute;
+    height: 200px;
+    width: 700px;
+    animation: fadeSlide3 30s infinite;
+}
+
+#review4 {
+    position: absolute;
+    height: 200px;
+    width: 700px;
+    animation: fadeSlide4 30s infinite;
+}
+
+.home_footer{
+    grid-column: 1/-1;
+    grid-row: 8/11;
+    background-color: #1e4a9c;
+}
+
+.home_footer #contact{
+    margin-left: 1%;
+}
+.home_footer ul{
+    margin-top: -40px;
+    margin-left: 6%;
+    list-style-type: none;
+}
+
+@media (max-width: 500px) {
+    .home_header #fam_house{
+        margin: 2%;
+        height: 12em;
+        width: 20em;
+        border-radius: 5px;
+    }
+
+    .home_header #nice_house{
+        margin: 2%;
+        height: 12em;
+        width: 20em;
+        border-radius: 5px;
+    }
+    .home_body #services {
+        display: grid;
+        margin-left: 2%;
+    }
+    .home_body #home_services {
+        margin-right: 2%;
+        margin-left: 0%;
+        list-style-type: none;
+    }
+    .home_body #home_services button{
+        height: 50px;
+        width: 140px;
+    }
+    .home_article #reviews{
+        margin: auto;
+        margin-bottom: 4%;
+        border: 6px solid #1e4a9c;
+    }
+    #review1 {
+        margin: auto;
+        height: 120px;
+        width: 320px;
+    }
+    #review2 {
+        margin: auto;
+
+        height: 120px;
+        width: 320px;
+    }
+    #review3 {
+        margin: auto;
+        height: 120px;
+        width: 320px;
+    }
+    #review4 {
+        margin: auto;
+        height: 120px;
+        width: 320px;
+    }
+}
