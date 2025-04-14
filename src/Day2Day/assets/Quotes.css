@@ -1,0 +1,12 @@
+.DQ {
+    margin-top: 5%;
+    margin-left: 5%;
+    font-family: "Trebuchet MS", sans-serif;
+    border: none;
+}
+
+.DQ #quoteButton {
+    width: 80px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+}

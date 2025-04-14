@@ -1,0 +1,92 @@
+.dailyTasksPage{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(10, 100px);
+}
+
+.dailyTasksPage header{
+    display: flex;
+    grid-column: 1/13;
+    grid-row: 1;
+    font-size: 20px;
+    font-family: "Trebuchet MS", sans-serif;
+    background-color: #AAF1FB;
+}
+
+.dailyTasksPage #DailyTasks{
+    align-items: center;
+    margin: auto;
+}
+
+.dailyTasksPage #home{
+    margin-top: 1%;
+    margin-left: 1%;
+    padding: 0px;
+    width: 60px;
+    height: 30px;
+    font-family: "Trebuchet MS", sans-serif;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(202, 160, 241);
+    cursor: pointer;
+}
+
+.dailyTasksPage main{
+    grid-column: 1/13;
+    grid-row: 2/11;
+    background-color: rgb(202, 245, 234);
+}
+.dailyTasksPage main h2{
+    margin-left: 1%;
+    grid-row: 3;
+}
+
+.dailyTasksPage .input-container{
+    grid-row: 4;
+    margin-left: 1%;
+    padding-bottom: 10px;
+}
+.dailyTasksPage .input-container input{
+    height: 30px;
+    width: 300px;
+    border-width: 1px;
+    border-radius: 5px;
+}
+.dailyTasksPage .input-container button{
+    height: 30px;
+    width: 100px;
+    border-width: 1px;
+    border-radius: 5px;
+    background-color: rgb(73, 230, 125);
+    color:rgb(0, 0, 0);
+}
+
+#todoList h3{
+    margin-left: 1%;
+}
+
+#highPriorityContainer {
+    grid-row: 5/7;
+    margin-left: 1%;
+    width: 80%;
+    border-radius: 5px;
+    background-color: #f38f8f;
+}
+
+#lowPriorityContainer{
+    grid-row: 7/9;
+    margin-left: 1%;
+    width: 80%;
+    border-radius: 5px;
+    background-color: #FED18E;
+}
+
+#delete_task{
+    height: 30px;
+    width: 110px;
+    border-width: 1px;
+    border-radius: 5px;
+    margin: 6px;
+    background-color: rgb(73, 230, 125);
+    color:rgb(0, 0, 0);
+}

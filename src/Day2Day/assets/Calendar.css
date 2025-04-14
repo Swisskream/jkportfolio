@@ -1,0 +1,25 @@
+.result-calendar{
+    position: relative;
+    left: 20%;
+    margin: auto;
+    margin-top: 5%;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: #d4f7d4;
+}
+
+.react-calendar{
+    width: 400px;
+    height: 300px;
+}
+.react-calendar__month-view__weekdays {
+    color: black;
+}
+
+.react-calendar__navigation button {
+    font-size: 1em;
+}
+
+.react-calendar__month-view__days__day{
+    color: black;
+}

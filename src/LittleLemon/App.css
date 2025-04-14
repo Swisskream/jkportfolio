@@ -1,0 +1,239 @@
+/*Navigation bar-----------------*/
+.App-logo {
+  width: 300px;
+  height: 100px;
+  padding: 1rem;
+}
+
+.LL_Nav {
+  width: 97%;
+  height: 70px;
+}
+
+.LL_Nav .container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+.LL_Nav ul {
+  position: absolute;
+  top: 80px;
+  right: 20px;
+}
+
+.LL_Nav li {
+  display: inline;
+  padding: 10px;
+  list-style-type: none;
+}
+
+
+/*Main-----------------*/
+.LL_Main {
+  height: auto;
+  width: auto;
+  position: relative;
+  padding-top: 1rem;
+}
+.LL_Main .block1 {
+  display: grid;
+  height: 270px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #495E57;
+}
+.LL_Main .block1 h2 {
+  color: rgb(255, 255, 255);
+  position: relative;
+  top: -35px;
+}
+.LL_Main .block1 p {
+  color: rgb(255, 255, 255);
+  position: relative;
+  top: -20px;
+  margin-right: 30%;
+
+}
+.LL_Main .block1 button {
+  width: 200px;
+  height: 32px;
+  font-weight: bold;
+  position: relative;
+  top: 0px;
+  background-color:#ceb32d;
+  border-radius: 7px;
+}
+.LL_Main .block1 img {
+  height: 300px;
+  width: 220px;
+  position: absolute;
+  left: 70%;
+  top: 40px;
+  border-radius: 10px;
+}
+
+.LL_Main .block2 {
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #b3b9b7;
+}
+.LL_Main .block2 h2 {
+color:black;
+font-weight: bold;
+}
+.LL_Main .block2 button {
+  width: 200px;
+  height: 32px;
+  font-weight: bold;
+  position: absolute;
+  top: 350px;
+  left: 70.4%;
+  background-color:#ceb32d;
+  border-radius: 7px;
+}
+.LL_Main .block2 ul p {
+  color: rgb(0, 0, 0);
+  margin-right: 30%;
+}
+.LL_Main .plate1 {
+  height: 200px;
+  width: 300px;
+  border-radius: 10px;
+}
+.LL_Main .plate2 {
+  height: 200px;
+  width: 300px;
+  border-radius: 10px;
+}
+.LL_Main .plate3 {
+  height: 200px;
+  width: 300px;
+  border-radius: 10px;
+}
+.LL_Main .block3 {
+  display: grid;
+  justify-content: space-evenly;
+  align-items: stretch;
+  padding: 1rem;
+  background-color: #ffffff;
+}
+.LL_Main .block3 h2 {
+  color: black;
+  font-weight: bold;
+}
+.LL_Main .block3 h3 {
+  color: black;
+  font-weight: bold;
+}
+.LL_Main .block3 li {
+  align-items: stretch;
+  width: 90%;
+  display: block;
+  flex: 0 1 60%;
+  list-style-type: none;
+}
+.LL_Main .block3 p {
+  position: relative;
+  top: 0%;
+  left: 0%;
+}
+
+/*Article -----------------*/
+.Article {
+  width: 100%;
+  height: auto;
+  width: auto;
+  position: relative;
+  left: 15px;
+  padding-top: 1rem;
+  margin-bottom: 140px;
+  display: grid;
+}
+.Article h2 {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  position: relative;
+  top: -20px;
+}
+.Article p {
+  color: rgb(0, 0, 0);
+  position: relative;
+  margin-right: 45%;
+}
+.Article img {
+  height: 300px;
+  width: 220px;
+  border-radius: 10px;
+  position: absolute;
+}
+.Article .image1 {
+  left: 70%;
+  top: 20px;
+}
+.Article .image2 {
+  left: 60%;
+  top: 40px;
+}
+
+/*Footer -----------------*/
+
+.LL_Footer {
+  display: flex;
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin-top: 180px;
+  background-color: rgb(4, 61, 134);
+}
+.LL_Footer .LLimage {
+  height: 250px;
+  width: 130px;
+  position: relative;
+  top: 45px;
+  left: 15px;
+}
+.LL_Footer ul {
+  display: flex;
+  color: rgb(0, 0, 0);
+}
+.LL_Footer li {
+  margin-left: 10vh;
+  list-style-type: none;
+}
+.LL_Footer h2 {
+  color: black;
+  font-weight: bold;
+}
+.LL_Footer p {
+  color: black;
+}
+
+.LL_Main ul{
+  display: grid;
+  grid-column: span 5;
+  grid-template-columns: repeat(6, auto);
+}
+
+.LL_Main li{
+  padding: 1rem;
+  list-style-type: none;
+}
+
+.LL_Main h1 {
+  color: #ceb32d;
+  font-weight: bold;
+}
+
+.LL_Main h2 {
+  color: rgb(40, 106, 128);
+}
+
+.LL_Main h3 {
+  color: black;
+  font-weight: bold;
+}
