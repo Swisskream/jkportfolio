@@ -1,14 +1,14 @@
 .title {
   color: #0b3351;
 }
-header {
+.GF_header {
 background: #add10d;
 color: white;
 padding: 1rem;
 text-align: center;
 }
 
-body {
+.GF_body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -16,7 +16,7 @@ body {
   color: #333;
 }
 
-.container {
+.GF_container {
 padding: 2rem;
 max-width: 800px;
 margin: auto;

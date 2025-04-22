@@ -19,12 +19,12 @@ function recipesHTML() {
                 <title>Gluten-Free Recipes</title>
                 <link rel="stylesheet" href="homepage.css"/>
             </head>
-            <body>
-                <header>
+            <body class="GF_body">
+                <header class="GF_header">
                     <h1 class="title">Gluten-Free Recipes</h1>
                     <p>Delicious and healthy meals without the gluten!</p>
                 </header>
-                <div class="container">
+                <div class="GF_container">
                     <div class="breakfast">
                         <h2>Breakfast</h2>
                         <Recipe title="Banana Oat Pancakes">
