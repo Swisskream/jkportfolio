@@ -16,11 +16,13 @@ function Portfolio() {
             <body className='body_main' >
                 <div id='intro'>
                     <h2>Jacob Kramer</h2>
-                    <p>I am a Front-End Developer with a strong foundation in JavaScript, React, HTML, CSS, Git, and Figma, complemented by hands-on project experience and a keen eye for creating user-friendly, responsive web applications. I have successfully earned certifications in Meta Front-End Development and Web Development using JavaScript on CodeChef, which have enhanced my ability to build and maintain intuitive, aesthetically pleasing websites.</p>
-
-                    <p>Currently, I work as a Participant Relationship Manager at Morgan Stanley (since October 2024), where I leverage my technical and communication skills to strengthen client relationships and provide tailored solutions. In my previous role as a Time and Expense Operations Supervisor at TEKsystems, I led cross-functional projects, collaborated with multiple teams, and enhanced processes—skills that translate well into managing complex development tasks and working in agile environments.</p>
-
-                    <p>My technical knowledge is complemented by my ability to work effectively in team settings, adapt to change, and maintain a positive, solution-oriented mindset. I am passionate about building engaging digital experiences and am eager to apply my front-end expertise to innovative projects that prioritize both functionality and design.</p>
+                    <p>Cloud enthusiast with hands-on foundational knowledge of AWS cloud services, recently certified as an AWS Certified Cloud Practitioner. 
+                        I bring a strong background in operational leadership, client management, and cross-team collaboration, with a growing skill set in cloud 
+                        infrastructure, security, and cost optimization. I have the ability to quickly adapt to new technologies and thrive in dynamic environments. 
+                        I am experienced in managing complex processes, streamlining workflows, and supporting technical solutions with a business-first mindset. Currently, I am 
+                        focused on building expertise in cloud architecture, deployment, and monitoring solutions using AWS. And very eager to contribute to cloud transformation 
+                        initiatives as an entry-level Cloud Engineer.
+                    </p>
                 </div>
                 <img src={Jacob} alt='Jacob' id='jacob' />
             </body>
@@ -63,12 +65,12 @@ function Portfolio() {
                 <div id='skills'>
                     <h2>Skills</h2>
                     <div id='skill_icons'>
+                        <img src='https://d1.awsstatic.com/certification/badges/AWS-Certified-AI-Practitioner_badge_300x300.85cea45137696692de99a72934f6ddb81f82fc12.png' />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" />
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" />
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" />
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" />
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg" />
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" />
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jquery/jquery-original-wordmark.svg" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg" /> 
                     </div>
                 </div>
             </article>
