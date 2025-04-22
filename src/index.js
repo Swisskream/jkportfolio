@@ -13,6 +13,8 @@ import Day from './Day2Day/components/Day.js';
 import DailyTasks from './Day2Day/components/DailyTasks.js';
 import Wordle from './Day2Day/components/Wordle.js';
 
+import GF_Recipes from './GF_Recipes/App.js';
+
 import JK_HL from './JK_HomeLending/App.js';
 
 const router = createBrowserRouter([
@@ -26,6 +28,8 @@ const router = createBrowserRouter([
   {path: '/Day', element: <Day /> },
   {path: '/dailyTasks', element: <DailyTasks /> },
   {path: '/wordle', element: <Wordle /> },
+
+  {path: '/GF_Recipes', element: <GF_Recipes /> },
 
   {path: '/JK_HL', element: <JK_HL /> }
 ]);
