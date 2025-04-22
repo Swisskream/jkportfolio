@@ -32,6 +32,16 @@ function Portfolio() {
                     <ul>
                         <li>
                             <div className='proj_intro'>
+                                <h3>Gluten-Free Recipes</h3>
+                                <p>Gluten-Free Recipes summary</p>
+                                <button>
+                                    <Link to='/GF_Recipes'>Check it out</Link>
+                                </button>
+                            </div>
+                            <img src={JK_HL} alt='JK_HL' id='JK_HL' />
+                        </li>
+                        <li>
+                            <div className='proj_intro'>
                                 <h3>Little Lemon restaurant</h3>
                                 <p>Enjoy this charming neighborhood bistro and reserve a table!</p>
                                 <button>

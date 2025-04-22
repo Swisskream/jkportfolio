@@ -1,0 +1,46 @@
+.title {
+  color: #0b3351;
+}
+header {
+background: #add10d;
+color: white;
+padding: 1rem;
+text-align: center;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fbfff0;
+  color: #333;
+}
+
+.container {
+padding: 2rem;
+max-width: 800px;
+margin: auto;
+}
+.recipe {
+border: 1px solid #ccc;
+border-radius: 10px;
+padding: 1rem;
+margin-bottom: 1rem;
+background-color: #fff;
+cursor: pointer;
+transition: transform 0.2s;
+}
+.recipe:hover {
+transform: scale(1.02);
+}
+.details {
+display: none;
+margin-top: 0.5rem;
+}
+.section {
+  margin-bottom: 2em;
+}
+.note {
+  font-style: italic;
+  color: #607996;
+}
