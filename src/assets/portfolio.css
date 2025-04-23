@@ -47,9 +47,17 @@
     background-color: rgb(135, 143, 167);
     border-radius: 30px;
 }
+#proj-heading{
+    display: flex;
+    align-items: center;
+}
 
 .art_main h2{
     margin-left: 2%;
+}
+.counter-number {
+    color: #000000;
+    margin-left: 450px;
 }
 
 .art_main li{
