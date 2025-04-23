@@ -2,9 +2,9 @@ import React from 'react';
 import toggleDetails from './gf_script';
 
 const Recipe = ({ title, children }) => (
-    <div className="recipe" onClick={(e) => toggleDetails(e.currentTarget)}>
+    <div class="recipe" onClick={(e) => toggleDetails(e.currentTarget)}>
         <h2>{title}</h2>
-        <div className="details" style={{ display: 'none' }}>
+        <div class="details" style={{ display: 'none' }}>
             {children}
         </div>
     </div>
@@ -283,7 +283,7 @@ function recipesHTML() {
                     </div>
                 </div>
 
-                <script type='module' src="gf_script.js"></script>
+                {/* <script type='module' src="gf_script.js"></script> */}
             </body>
         </html>
     );

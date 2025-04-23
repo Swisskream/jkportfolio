@@ -2,6 +2,8 @@ import React from 'react';
 import '../assets/portfolio.css';
 import { Link } from 'react-router-dom';
 
+import Views from './view-counter.js';
+
 import Jacob from '../photos/selfie.jpg';
 import littlelemon from '../photos/LittleLemon.PNG';
 import Day2Day from '../photos/Day2Day.PNG';
@@ -29,7 +31,10 @@ function Portfolio() {
             </body>
             <article className='art_main' >
                 <div id='projects'>
-                    <h2>Projects</h2>
+                    <div id='proj-heading'>
+                        <h2>Projects</h2>
+                        <Views />
+                    </div>
                     <ul>
                         <li>
                             <div className='proj_intro'>
