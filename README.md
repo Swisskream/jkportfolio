@@ -1,75 +1,29 @@
 # Day2Day
 <h2>Welcome to my portfolio!</h2>
-<p>I originally started on this project to focus on frontend development. Where I created the HTML, CSS, and Javascript. The project has evolved to include React to seamlessly combine all the elements together.</p>
-=======
-# Getting Started with Create React App
+<p>I originally started on this project to focus on frontend development. Where I created the HTML, CSS, and Javascript. The project has evolved to include React to seamlessly combine all the elements together.
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p>After learning frontend development I soon shifted my focus to learning about the cloud and primarily through AWS. I have recently passed the AWS Certified Cloud Practitioner exam and now have a goal to pass the AWS Certified Sysops Administrator - Associate Certification.</p>
 
-## Available Scripts
+<p>While I study for these exams I also implement hands on experience to retain the information, but also push and showcase my skills. This initally started as a frontend project but quickly transitioned to building in the cloud, where I am following the Cloud Resume Challenge.
+</p>
 
-In the project directory, you can run:
+<h2>Update 4/22</h2>
 
-### `npm start`
+<p>Through the use of AWS S3, Cloudfront, and Route 53 I have been able to create a domain and host my portolio on the cloud!</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<p>Services utilized:
+    S3: storage of project in AWS and host static webpage.
+    Cloudfront: connection to S3 bucket, but now caching the information at the edge to increase performance and reduce latency for the user.
+    Route 53: creating domain to publicly host website. Also, utilized Certificate Manager in AWS to securely host the webpage (https).
+</p>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<h2>Update 4/23</h2>
 
-### `npm test`
+<p>Addtion of number of views on the webpage to count how many times the page has been visted.</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
->>>>>>> c3f9c3f (Initial commit for JKPORTFOLIO)
+<p>Services utilized:
+DynamoDB: databased to store number of views.
+Lambda: automatically runs a function to add to the viewer count, with the support of an IAM role.
+React: calls Lambda function via API when the webpage is visited.
+</p>
