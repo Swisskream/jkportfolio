@@ -1,6 +1,6 @@
 <<<<<<< HEAD
 # Day2Day
-<p>read this</p>
+<h2>Welcome to my portfolio!</h2>
 <p>more stuff</p>
 =======
 # Getting Started with Create React App
