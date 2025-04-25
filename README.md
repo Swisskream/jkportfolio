@@ -12,18 +12,16 @@
 
 <p>Through the use of AWS S3, Cloudfront, and Route 53 I have been able to create a domain and host my portolio on the cloud!</p>
 
-<p>Services utilized:
-    S3: storage of project in AWS and host static webpage.
-    Cloudfront: connection to S3 bucket, but now caching the information at the edge to increase performance and reduce latency for the user.
-    Route 53: creating domain to publicly host website. Also, utilized Certificate Manager in AWS to securely host the webpage (https).
-</p>
+<p>Services utilized:</p>
+<p>S3: storage of project in AWS and host static webpage.</p>
+<p>Cloudfront: connection to S3 bucket, but now caching the information at the edge to increase performance and reduce latency for the user.</p>
+<p>Route 53: creating domain to publicly host website. Also, utilized Certificate Manager in AWS to securely host the webpage (https).</p>
 
 <h2>Update 4/23</h2>
 
 <p>Addtion of number of views on the webpage to count how many times the page has been visted.</p>
 
-<p>Services utilized:
-DynamoDB: databased to store number of views.
-Lambda: automatically runs a function to add to the viewer count, with the support of an IAM role.
-React: calls Lambda function via API when the webpage is visited.
-</p>
+<p>Services utilized:</p>
+<p>DynamoDB: databased to store number of views.</p>
+<p>Lambda: automatically runs a function to add to the viewer count, with the support of an IAM role.</p>
+<p>React: calls Lambda function via API when the webpage is visited.</p>
