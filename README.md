@@ -3,7 +3,7 @@
 <p>I originally started on this project to focus on frontend development. Where I created the HTML, CSS, and Javascript. The project has evolved to include React to seamlessly combine all the elements together.
 </p>
 
-<p>After learning frontend development I soon shifted my focus to learning about the cloud and primarily through AWS. I have recently passed the AWS Certified Cloud Practitioner exam and now have a goal to pass the AWS Certified Sysops Administrator - Associate Certification.</p>
+<p>After learning frontend development I soon shifted my focus to learning about the cloud and primarily through AWS. I have recently passed the AWS Certified Cloud Practitioner exam and now have a goal to pass the AWS Certified Solutions Architect - Associate Certification.</p>
 
 <p>While I study for these exams I also implement hands on experience to retain the information, but also push and showcase my skills. This initally started as a frontend project but quickly transitioned to building in the cloud, where I am following the Cloud Resume Challenge.
 </p>
