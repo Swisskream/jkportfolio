@@ -30,4 +30,4 @@ React: calls Lambda function via API when the webpage is visited.<br>
 
 <h2>Update 4/29</h2>
 
-<p>Integrated CICD - when pushing updates to GitHub the S3 bucket will also be updated in my AWS account to update to static website. Previously ran npm build and deploy to simultaneously build a npm package and update S3 bucket, which was effective, but I wanted to test this development style.</p>
+<p>Integrated CICD: when pushing updates to GitHub the S3 bucket will also be updated in my AWS account to update the static website. Full CICD is now running with git push, npm build and npm deploy.</p>
