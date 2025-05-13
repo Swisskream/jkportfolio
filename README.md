@@ -1,4 +1,3 @@
-# Day2Day
 <h2>Welcome to my portfolio!</h2>
 <p>I originally started on this project to focus on frontend development. Where I created the HTML, CSS, and Javascript. The project has evolved to include React to seamlessly combine all the elements together.
 </p>
