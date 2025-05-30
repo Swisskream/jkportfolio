@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+    gap: 1rem;
+  }
+  
+  .card {
+    flex: 1;
+    background-color: #f9fafb;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  }
+  
+  .income {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .expense {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .balance {
+    color: blue;
+    font-weight: bold;
+  }
+  

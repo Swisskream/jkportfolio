@@ -1,0 +1,31 @@
+.authenticator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10%;
+    height: 100vh;
+    background-color: rgb(225, 241, 252);
+}
+
+.homepage {
+    display: flexbox;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.signOut {
+    width: 100px;
+    position: absolute;
+    right: 50px;
+    background-color: #ddd;
+    border: none;
+    padding: 6px 12px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 40px;
+    }
+
+    

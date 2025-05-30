@@ -15,7 +15,7 @@ import Wordle from './Day2Day/components/Wordle.js';
 
 import GF_Recipes from './GF_Recipes/App.js';
 
-import JK_HL from './JK_HomeLending/App.js';
+import BudgetTracker from './jkbudgettracker/App.js';
 
 const router = createBrowserRouter([
   {path: '/', element: <App /> },
@@ -31,7 +31,7 @@ const router = createBrowserRouter([
 
   {path: '/GF_Recipes', element: <GF_Recipes /> },
 
-  {path: '/JK_HL', element: <JK_HL /> }
+  {path: '/budgettracker', element: <BudgetTracker /> },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
