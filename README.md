@@ -9,8 +9,8 @@
 <p>
   After gaining experience in frontend development, I shifted my focus toward cloud technologies—
   especially Amazon Web Services (AWS). I have earned both the 
-  <strong>AWS Certified Solutions Architect – Associate</strong>
-  <strong>AWS Certified Cloud Practitioner</strong> and certifications.
+  <strong>AWS Certified Solutions Architect – Associate</strong> and 
+  <strong>AWS Certified Cloud Practitioner</strong> certifications.
 </p>
 
 <p>
