@@ -26,7 +26,7 @@ function Portfolio() {
                         growing skill set in cloud infrastructure, security, and cost optimization. I have the ability to quickly adapt to new technologies and thrive 
                         in dynamic environments. I am experienced in managing complex processes, streamlining workflows, and supporting technical solutions with a 
                         business-first mindset. Currently, I am focused on building expertise in cloud architecture, deployment, and monitoring solutions using AWS. I am very 
-                        eager to contribute to cloud transformation initiatives as an entry-level Cloud Engineer.
+                        eager to contribute to cloud transformation initiatives as a Cloud Engineer.
                     </p>
                 </div>
                 <img src={Jacob} alt='Jacob' id='jacob' />
