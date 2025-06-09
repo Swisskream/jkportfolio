@@ -66,6 +66,8 @@
 .art_main li{
     display: flex;
     padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     list-style-type: none;
 }
 
@@ -75,7 +77,7 @@
 }
 
 .art_main img{
-    margin-left: 2%;
+    margin-left: 4%;
     margin-right: 2%;
     height: 300px;
     width: 400px;
@@ -109,4 +111,10 @@
 
 .footer_main li {
     list-style-type: none;
+}
+
+@media (max-width: 1000px) {
+    .art_main .proj_intro{
+        width: 45%;
+    }
 }
