@@ -38,6 +38,7 @@ function FileUpload(){
 
     return (
         <div className='PulseRead-upload-container'>
+            <p>Submit your .txt file and sit back as AI creates a summary for you: </p>
             <input className='PulseRead-choose-file' type="file" accept='.txt' onChange={handleFileChange} />
             <button className='PulseRead-submit-button' onClick={uploadFile}>Submit</button>
             <p className='PulseRead-upload-status'>{status}</p>

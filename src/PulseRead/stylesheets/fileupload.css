@@ -8,6 +8,11 @@
   font-family: 'Poppins', sans-serif;
 }
 
+.PulseRead-upload-container p {
+  font-family: 'Poppins', sans-serif;
+  color: black;
+}
+
 .PulseRead-choose-file[type="file"] {
   color: #333;
   background-color: #f0f0f0;
