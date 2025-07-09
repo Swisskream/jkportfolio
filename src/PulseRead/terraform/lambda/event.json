@@ -1,0 +1,14 @@
+{
+  "Records": [
+    {
+      "s3": {
+        "bucket": {
+          "name": "pulseread-input-bucket"
+        },
+        "object": {
+          "key": "sample-reviews.txt"
+        }
+      }
+    }
+  ]
+}

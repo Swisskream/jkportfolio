@@ -9,12 +9,13 @@ import littlelemon from '../photos/LittleLemon.PNG';
 import Day2Day from '../photos/Day2Day.PNG';
 import GF from '../photos/GF Recipes screenshot.png';
 import BT from '../photos/BT_example.png';
+import PR from '../photos/PulseRead-light.png';
 
 import SAA_badge from '../photos/SAA-badge.png';
 
 function Portfolio() {
     return(
-        <hmtl className='jk_main' >
+        <html className='jk_main' >
             <header className='header_main' >
                 <h1>Welcome!</h1>
             </header>
@@ -38,6 +39,17 @@ function Portfolio() {
                         <Views />
                     </div>
                     <ul>
+                        <li>
+                            <div className='proj_intro'>
+                                <h3>PulseRead</h3>
+                                <p>PulseRead is an AI-powered app that transforms lengthy articles, reviews, and documents into concise, easy-to-digest summaries—giving you the key insights in seconds.
+                                </p>
+                                <button className='proj_button'>
+                                    <Link to='/PulseRead'>Check it out</Link>
+                                </button>
+                            </div>
+                            <img src={PR} alt='pulseread' id='pulseread' />
+                        </li>
                         <li>
                             <div className='proj_intro'>
                                 <h3>JK Budget Tracker</h3>
@@ -103,7 +115,7 @@ function Portfolio() {
                     <li>Email: jacobkramer50@gmail.com</li>
                 </ul>
             </footer>
-        </hmtl>
+        </html>
     );
 }
 

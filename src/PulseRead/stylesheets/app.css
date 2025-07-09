@@ -1,0 +1,91 @@
+
+ .App-pulseread {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  padding: 2rem;
+  background-color: #f4f6f8;
+  color: #1c1c1c;
+}
+
+.PulseRead-app-title {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #0d47a1;
+  margin-bottom: 1rem;
+  letter-spacing: 0.5px;
+  position: relative;
+}
+
+.PulseRead-app-title::after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 4px;
+  background-color: #448aff;
+  margin: 12px auto 0;
+  border-radius: 2px;
+}
+
+.PulseRead-app-tagline {
+  font-size: 1rem;
+  color: #555;
+  font-style: italic;
+  margin-bottom: 2rem;
+}
+
+/* dark mode */
+:root {
+  --bg-color: #f4f6f8;
+  --text-color: #1c1c1c;
+  --card-bg: #ffffff;
+  --accent: #0d47a1;
+  --tagline: #555;
+}
+
+[data-theme="dark"] {
+  --bg-color: #121212;
+  --text-color: #e0e0e0;
+  --card-bg: #1e1e1e;
+  --accent: #00e5ff;
+  --tagline: #aaa;
+}
+
+.App-pulseread {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: 'Poppins', sans-serif;
+  padding: 2rem;
+  text-align: center;
+}
+
+.PulseRead-app-title {
+  color: var(--accent);
+}
+
+.PulseRead-app-tagline {
+  color: var(--tagline);
+}
+
+.PulseRead-theme-toggle {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.PulseRead-theme-toggle button {
+  background-color: var(--card-bg);
+  border: 1px solid #ccc;
+  padding: 0.5rem 0.8rem;
+  border-radius: 5px;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+  font-size: 0.9rem;
+  width: 120;
+  height: 80;
+}
+
+.PulseRead-theme-toggle button:hover {
+  background-color: var(--accent);
+  color: white;
+  border: none;
+}

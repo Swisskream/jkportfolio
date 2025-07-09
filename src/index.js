@@ -17,6 +17,8 @@ import GF_Recipes from './GF_Recipes/App.js';
 
 import BudgetTracker from './jkbudgettracker/App.js';
 
+import PulseRead from './PulseRead/App.js';
+
 const router = createBrowserRouter([
   {path: '/', element: <App /> },
 
@@ -32,6 +34,8 @@ const router = createBrowserRouter([
   {path: '/GF_Recipes', element: <GF_Recipes /> },
 
   {path: '/budgettracker', element: <BudgetTracker /> },
+
+  {path: '/PulseRead', element: <PulseRead />},
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

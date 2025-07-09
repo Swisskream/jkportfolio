@@ -1,0 +1,36 @@
+
+ .PulseRead-summary-container {
+  margin-top: 2rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.PulseRead-summary-card {
+  background-color: #fdfdfd;
+  padding: 1.2rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  transition: box-shadow 0.2s ease;
+}
+
+.PulseRead-summary-card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.PulseRead-summary-card h4 {
+  margin-bottom: 0.5rem;
+  color: #0d47a1;
+  font-weight: 600;
+}
+
+.PulseRead-summary-card p {
+  color: #444;
+  margin: 0.5rem 0;
+  line-height: 1.5;
+}
+
+.PulseRead-summary-card small {
+  color: #888;
+  font-style: italic;
+}
