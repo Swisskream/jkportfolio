@@ -1,51 +1,44 @@
 <h1>Welcome to My Portfolio! 🌐</h1>
 
-<p>
-  This portfolio began as a simple frontend project using HTML, CSS, and JavaScript.
-  Over time, it evolved into a full React-based application that combines interactive UI components
-  with modern tooling and cloud integration.
-</p>
+<p> This portfolio began as a simple frontend project using HTML, CSS, and JavaScript. Over time, it evolved into a full React-based application that combines interactive UI components with modern tooling and cloud integration. </p>
 
-<p>
-  After gaining experience in frontend development, I shifted my focus toward cloud technologies—
-  especially Amazon Web Services (AWS). I have earned both the 
-  <strong>AWS Certified Solutions Architect – Associate</strong> and 
-  <strong>AWS Certified Cloud Practitioner</strong> certifications.
-</p>
+<p> After gaining experience in frontend development, I shifted my focus toward cloud technologies— especially Amazon Web Services (AWS). I have earned both the <strong>AWS Certified Solutions Architect – Associate</strong> and <strong>AWS Certified Cloud Practitioner</strong> certifications. </p>
 
-<p>
-  This portfolio now serves not only as a showcase of my projects but also as a platform
-  for experimenting with CI/CD, serverless architecture, and infrastructure as code.
-</p>
+<p> Today, this portfolio serves not only as a showcase of my projects but also as a sandbox for experimenting with CI/CD pipelines, serverless architecture, and infrastructure as code (IaC). </p>
 
 <hr />
 
 <h2>🌟 Featured Projects</h2>
 
-<h3>🔹 BudgetTracker (New!)</h3>
-<p>
-  A personal finance tracker built with a serverless backend and a React frontend.
-  This project reflects my AWS and full-stack development skills in action.
-</p>
+<h3>🔹 PulseRead (New!)</h3> <p> An AI-powered summarization app that distills lengthy articles, documents, or feedback into digestible, real-time insights. Perfect for quickly understanding user sentiment or navigating large data dumps. </p>
 
-<ul>
-  <li><strong>Frontend:</strong> React</li>
-  <li><strong>Backend:</strong> AWS Lambda (Python), API Gateway</li>
-  <li><strong>Database:</strong> DynamoDB</li>
-  <li><strong>Infrastructure:</strong> Terraform</li>
-</ul>
+<ul> <li><strong>Frontend:</strong> React with light/dark mode support</li> <li><strong>Backend:</strong> AWS Lambda, API Gateway</li> <li><strong>AI:</strong> AWS Bedrock for intelligent text summarization</li> <li><strong>Database:</strong> DynamoDB for summary storage</li> <li><strong>Infrastructure:</strong> Terraform</li> </ul>
 
-<p>
-  <strong>Features:</strong><br />
-  - Add, view, and delete expenses<br />
-  - Fast, serverless architecture<br />
-  - Infrastructure managed using Terraform<br />
-  - Fully integrated into this portfolio
-</p>
+<p> <strong>Features:</strong><br />
 
-<p>
-  📍 <a href="https://jkinthecloud.com/budgettracker" target="_blank">View the BudgetTracker App</a>
-</p>
+Upload documents and receive AI-generated summaries instantly<br />
+
+Toggle light/dark mode for user comfort<br />
+
+Fully integrated into this portfolio </p>
+
+<p> 📍 <a href="https://jkinthecloud.com/PulseRead" target="_blank">Try PulseRead</a> </p>
+
+<h3>🔹 BudgetTracker</h3> <p> A personal finance tracker built with a serverless backend and a React frontend. This project reflects my AWS and full-stack development skills in action. </p>
+
+<ul> <li><strong>Frontend:</strong> React</li> <li><strong>Backend:</strong> AWS Lambda (Python), API Gateway</li> <li><strong>Database:</strong> DynamoDB</li> <li><strong>Infrastructure:</strong> Terraform</li> </ul>
+
+<p> <strong>Features:</strong><br />
+
+Add, view, and delete expenses<br />
+
+Fast, serverless architecture<br />
+
+Infrastructure managed using Terraform<br />
+
+Fully integrated into this portfolio </p>
+
+<p> 📍 <a href="https://jkinthecloud.com/budgettracker" target="_blank">View the BudgetTracker App</a> </p>
 
 <hr />
 
