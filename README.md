@@ -22,8 +22,6 @@ Toggle light/dark mode for user comfort<br />
 
 Fully integrated into this portfolio </p>
 
-<p> 📍 <a href="https://jkinthecloud.com/PulseRead" target="_blank">Try PulseRead</a> </p>
-
 <h3>🔹 BudgetTracker</h3> <p> A personal finance tracker built with a serverless backend and a React frontend. This project reflects my AWS and full-stack development skills in action. </p>
 
 <ul> <li><strong>Frontend:</strong> React</li> <li><strong>Backend:</strong> AWS Lambda (Python), API Gateway</li> <li><strong>Database:</strong> DynamoDB</li> <li><strong>Infrastructure:</strong> Terraform</li> </ul>
@@ -37,8 +35,6 @@ Fast, serverless architecture<br />
 Infrastructure managed using Terraform<br />
 
 Fully integrated into this portfolio </p>
-
-<p> 📍 <a href="https://jkinthecloud.com/budgettracker" target="_blank">View the BudgetTracker App</a> </p>
 
 <hr />
 

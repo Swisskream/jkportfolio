@@ -15,24 +15,22 @@ import SAA_badge from '../photos/SAA-badge.png';
 
 function Portfolio() {
     return(
-        <html className='jk_main' >
-            <header className='header_main' >
+        <html className='jk-portfolio_main' >
+            <header className='portfolio-header' >
                 <h1>Welcome!</h1>
             </header>
             <body className='body_main' >
-                <div id='intro'>
+                <div className='portfolio-intro'>
                     <h2>Jacob Kramer</h2>
-                    <p>Cloud enthusiast with hands-on foundational knowledge of AWS cloud services, recently certified as an AWS Certified Solutions Architect – Associate 
-                        and AWS Certified Cloud Practitioner. I bring a strong background in operational leadership, client management, and cross-team collaboration, with a 
-                        growing skill set in cloud infrastructure, security, and cost optimization. I have the ability to quickly adapt to new technologies and thrive 
-                        in dynamic environments. I am experienced in managing complex processes, streamlining workflows, and supporting technical solutions with a 
-                        business-first mindset. Currently, I am focused on building expertise in cloud architecture, deployment, and monitoring solutions using AWS. I am very 
-                        eager to contribute to cloud transformation initiatives as a Cloud Engineer.
+                    <p>
+                        I'm a cloud-focused developer with AWS certifications (Solutions Architect Associate and Cloud Practitioner) and a passion for building scalable, serverless applications. My background in operational leadership and technical problem solving helps me bridge the gap between business needs and cloud-native solutions.
                     </p>
+                    <p> Originally launched as a simple HTML/CSS project, this portfolio has evolved into a fully featured React application with seamless backend integrations and infrastructure-as-code deployments. It serves as both a personal showcase and a sandbox for exploring CI/CD pipelines, serverless architecture, and AI-powered cloud solutions. </p>
+                    <p> I thrive in dynamic environments and have a proven ability to adapt quickly to emerging technologies. My focus today is on architecting scalable systems, improving cloud efficiency, and contributing to transformative initiatives across the AWS ecosystem. </p>
                 </div>
                 <img src={Jacob} alt='Jacob' id='jacob' />
             </body>
-            <article className='art_main' >
+            <article className='portfolio-projects' >
                 <div id='projects'>
                     <div id='proj-heading'>
                         <h2>Projects</h2>
@@ -110,8 +108,9 @@ function Portfolio() {
                 </div>
             </article>
             <footer className='footer_main' >
-                <h2>Contact</h2>
+                <h2>Github & Contact</h2>
                 <ul>
+                    <li>Github: https://github.com/Swisskream</li>
                     <li>Email: jacobkramer50@gmail.com</li>
                 </ul>
             </footer>

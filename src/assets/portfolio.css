@@ -1,5 +1,5 @@
 
-.jk_main {
+.jk-portfolio_main {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: auto;
@@ -8,7 +8,7 @@
     background-color: aliceblue;
 }
 
-.header_main{
+.portfolio-header{
     grid-column: 1/-1;
     grid-row: 1/1;
     margin-left: 3%;
@@ -24,7 +24,7 @@
     line-height: normal !important;
 }
 
-#intro{
+.portfolio-intro {
     margin-left: 3%;
     margin-top: 2%;
     width: 1000px;
@@ -40,7 +40,7 @@
     box-shadow: 17px 13px 38px 8px rgba(119,187,219,0.89);
 }
 
-.art_main{
+.portfolio-projects{
     grid-column: 1/-1;
     grid-row: 4/11;
     margin-top: 2%;
@@ -55,7 +55,7 @@
     align-items: center;
 }
 
-.art_main h2{
+.portfolio-projects h2{
     margin-left: 2%;
 }
 .counter-number {
@@ -63,7 +63,7 @@
     margin-left: 450px;
 }
 
-.art_main li{
+.portfolio-projects li{
     display: flex;
     padding: 10px;
     padding-top: 20px;
@@ -71,12 +71,12 @@
     list-style-type: none;
 }
 
-.art_main .proj_intro{
+.portfolio-projects .proj_intro{
     display: block;
     width: 500px;
 }
 
-.art_main img{
+.portfolio-projects img{
     margin-left: 4%;
     margin-right: 2%;
     height: 300px;
@@ -84,7 +84,7 @@
     border-radius: 10px;
 }
 
-.art_main .proj_button{
+.portfolio-projects .proj_button{
     font-size: 18px !important;
     padding: 10px !important;
     line-height: 1 !important;
@@ -114,7 +114,7 @@
 }
 
 @media (max-width: 1000px) {
-    .art_main .proj_intro{
+    .portfolio-projects .proj_intro{
         width: 45%;
     }
 }
